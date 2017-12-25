@@ -1,19 +1,7 @@
 class Dog
 {
-	int age;
-
-	public Dog(int dogsAge)
+	public static void main(String[] args)
 	{
-		age = dogsAge;
-
-	}
-	public void bark(){
-		System.out.println("Woof");
-
-	}
-	public static void main (String[] args)
-	{
-		Dog spike = new Dog(5);
-		spike.bark();
+		System.out.println("Hello world");
 	}
 }
